@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>Membuat Image Slider Menggunakan jQuery</title>
+        <meta name="description" content="Sederhana dan sangat powerful:Slide slider">
+        <link href="style.css" rel="stylesheet" type="text/css">
+
+        <!-- Instalasi font Lato dari Google, abaikan jika tidak terkoneksi internet-->
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+        <!-- Include jquery -->
+        <script src="./src/jquery-3.6.0.js"></script>
+        <script src="./src/jquery-migrate-1.2.1.min.js"></script>
+
+        <!-- Include the slider scripts -->
+        <script type="text/javascript" src="./src/jquery.simpleslider.js"></script>
+        <script type="text/javascript" src="./src/backstretch.js"></script>
+        <script type="text/javascript" src="./src/custom.js"></script>
+    </head>
+
+    <body>
+        <header id="top">
+            <div id="logo"><span class='logo'>Slider menggunakan jQuery</span><span class='dynamic'></span></div>
+        </header>
+
+        <div class='pagewrap'>
+            <div class="fb-like" data-href="https://www.facebook.com/lindung.siswanto/" data-layout="button_count" 
+            data-action="like" data-show-faces="false" data-share="true"></div>
+            
+            <div class="githubbuttons">
+                <iframe src="http:ghbtns.com/github-btn.html?user=linds1984&repo=notes-app-back-end&type=watch&count=true" 
+                allowtransparency="true" frameborder="0" scrolling="0" width="80" height="20"></iframe>
+                <iframe src="http:ghbtns.com/github-btn.html?user=linds1984&repo=notes-app-back-end&type=fork&count=true" 
+                allowtransparency="true" frameborder="0" scrolling="0" width="85" height="20"></iframe>
+                <iframe src="http:ghbtns.com/github-btn.html?user=linds1984&repo=notes-app-back-end&type=follow" 
+                allowtransparency="true" frameborder="0" scrolling="0" width="145" height="20"></iframe>
+            </div>
+        </div>
+
+            <div class='pageblock' id='fullscreen'>
+                <div class='slider'>
+
+                    <div class='slide' id="satu">
+                        <div class='slidecontent'>
+                            <span class="headersur">Sangat powerfull dan sederhana diwaktu yang sama</span>
+                            <h1>SLIDE PERTAMA</h1>
+                            <div class="button" onclick="mainslider.nextSlide();">Lihat betapa sederhananya</div>
+                        </div>
+                    </div>
+
+                    <div class='slide' id="dua">
+                        <div class='slidecontent'>
+                            <span class="headersur"></br></br>Masukkan semua disini</span>
+                            <h1>SLIDE KEDUA</h1>
+                            <div class="text">
+                                <p>Siapkan dan download file simpleslider.js, jquery.touchswipe.js dan transit.js</p>
+                                <xmp>
+<script src="./src/jquery-3.6.0.js"></script>
+<script src="./src/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="./src/transit.js"></script>
+<script type="text/javascript" src="./src/jquery.touchSwipe.js"></script>
+<script type="text/javascript" src="./src/jquery.simpleslider.js"></script>                                    
+                                </xmp>
+
+                                <div class="button" onclick="mainslider.nextSlide();">Sudah? Ayo Lanjutkan!</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='slide' id="tiga">
+                        <div class='slidecontent'>
+                            <span class="headersur">Sudah siap?</span>
+                            <h1>Langkah berikutnya</h1>
+                            <div class="text">
+                                <p>Masukkan kode ini di HTML, cek <a href="https://github.com/linds1984/notes-app-back-end" 
+                                target="_BLANK">Github README</a> Contoh HTML</p>
+<xmp>$(document).ready(function(){
+    $(".slider").simpleSlider();    
+});</xmp>   
+                                <div class="button" onclick="mainslider.nextSlide();">Selesai? Lanjutkan lagi!</div>                             
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='slide' id="empat">
+                        <div class='slidecontent'>
+                            <span class="headersur">Sudah Selesai</span>
+                            <h1>LIHAT</h1>
+                            <div class="text">
+                                <p>Slider Sudah Selesai, Mau lihat opsi yang lain?</p>
+                                <p>Ada methods, triggers dan tracker yang bisa dikonfigurasikan</p>
+
+                                <div class="button"><a href="https://github.com/linds1984/notes-app-back-end"
+                                target="_BLANK">Cek</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copy">
+                Project: <a href="https://www.facebook.com/lindung.siswanto/" rel="publisher">Lindung Siswanto</a> | <a href="https://github.com/linds1984">Github: Lindung Siswanto</a>
+            </div>
+
+        </div>
+    </body>
+</html>7
